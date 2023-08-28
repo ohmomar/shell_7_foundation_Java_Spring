@@ -37,7 +37,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker Image
-      run: docker push ohmomar/solutions:0.0.4.Release
+      run: docker push ohmomar/streamline-solutions:0.0.4.Release
 
 
 
